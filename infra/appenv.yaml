@@ -1,0 +1,15 @@
+apiVersion: app.appvia.io/v2beta1
+kind: AppEnv
+metadata:
+  name: app-name-placeholder-dev
+spec:
+  name: dev
+  stage: nonprod
+  application: app-name-placeholder
+  cloud: azure
+  clusterRef:
+    group: compute.appvia.io
+    kind: Cluster
+    name: aks-stdnt1
+    namespace: ws-to1
+    version: v2beta1
