@@ -7,9 +7,4 @@ spec:
   stage: nonprod
   application: demo
   cloud: azure
-  clusterRef:
-    group: compute.appvia.io
-    kind: Cluster
-    name: aks-stdnt1
-    namespace: ws-to1
-    version: v2beta1
+  plan: aks-standard
