@@ -12,7 +12,7 @@ on:
         required: true
       app-name:
         description: The name of the application that will be created in Wayfinder
-        default: app-name-placeholder
+        default: demo
         required: true
       app-environment-name:
         description: The name of the application environment that will be created in Wayfinder
@@ -23,7 +23,7 @@ env:
   WAYFINDER_TOKEN: ${{ secrets.WAYFINDER_TOKEN }}
   WAYFINDER_SERVER: ${{ vars.WAYFINDER_SERVER }}
   WAYFINDER_WORKSPACE: ${{ vars.WAYFINDER_WORKSPACE || 'workspace-placeholder' }}
-  APPLICATION_NAME: ${{ inputs.app-name || 'app-name-placeholder' }}
+  APPLICATION_NAME: ${{ inputs.app-name || 'demo' }}
   APP_ENVIRONMENT_NAME: ${{ inputs.app-environment-name || 'dev' }}
   INFRA_DIRECTORY: ${{ inputs.infra-directory || 'infra' }}
 

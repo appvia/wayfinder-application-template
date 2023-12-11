@@ -1,7 +1,7 @@
 apiVersion: app.appvia.io/v2beta1
 kind: Application
 metadata:
-  name: app-name-placeholder
+  name: demo
 spec:
   cloud: azure
-  name: app-name-placeholder
+  name: demo
