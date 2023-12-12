@@ -9,7 +9,7 @@ spec:
     - env:
       - fromCloudResourceOutput:
           componentName: demo-storage-account
-          output: SECONDARY_ACCESS_KEY
+          output: PRIMARY_ACCESS_KEY
         name: PRIMARY_ACCESS_KEY
       - fromCloudResourceOutput:
           componentName: demo-storage-account
