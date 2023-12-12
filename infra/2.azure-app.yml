@@ -19,7 +19,7 @@ spec:
           componentName: demo-storage-account
           output: CONTAINER_NAME
         name: AZURE_CONTAINER_NAME
-      image: ghcr.io/digital-garage-icl/repo-name-placeholder:latest
+      image: ghcr.io/appvia/azure-demo-storage-account-app:sha-ba2942dda4894ce377137d47996d392e1ae72b38
       name: ui
       ports:
       - containerPort: 3002
