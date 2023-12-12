@@ -9,8 +9,8 @@ spec:
     - env:
       - fromCloudResourceOutput:
           componentName: demo-storage-account
-          output: AZURE_STORAGE_KEY
-        name: PRIMARY_ACCESS_KEY
+          output: PRIMARY_ACCESS_KEY
+        name: AZURE_STORAGE_KEY
       - fromCloudResourceOutput:
           componentName: demo-storage-account
           output: NAME
