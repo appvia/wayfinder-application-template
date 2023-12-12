@@ -26,8 +26,8 @@ spec:
         name: ui
         protocol: TCP
       securityContext:
-        runAsGroup: 999
-        runAsUser: 999
+        runAsGroup: 1002
+        runAsUser: 1002
     expose:
       container: ui
       port: 3002
