@@ -7,4 +7,9 @@ spec:
   stage: nonprod
   application: demo
   cloud: azure
-  plan: aks-standard
+  clusterRef:
+    group: compute.appvia.io
+    kind: Cluster
+    name: aks-awbja
+    namespace: ws-demo
+    version: v2beta1

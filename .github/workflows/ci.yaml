@@ -21,8 +21,8 @@ on:
 
 env:
   WAYFINDER_TOKEN: ${{ secrets.WAYFINDER_TOKEN }}
-  WAYFINDER_SERVER: ${{ secrets.WAYFINDER_SERVER || 'https://api.azure.amir.appvia.dev' }}
-  WAYFINDER_WORKSPACE: ${{ secrets.WAYFINDER_WORKSPACE || 'demo' }}
+  WAYFINDER_SERVER: ${{ vars.WAYFINDER_SERVER || 'https://api.azure.amir.appvia.dev' }}
+  WAYFINDER_WORKSPACE: ${{ vars.WAYFINDER_WORKSPACE || 'demo' }}
   APPLICATION_NAME: ${{ inputs.app-name || 'demo' }}
   APP_ENVIRONMENT_NAME: ${{ inputs.app-environment-name || 'dev' }}
   INFRA_DIRECTORY: ${{ inputs.infra-directory || 'infra' }}
