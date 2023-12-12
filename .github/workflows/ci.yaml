@@ -22,7 +22,7 @@ on:
 env:
   WAYFINDER_TOKEN: ${{ secrets.WAYFINDER_TOKEN }}
   WAYFINDER_SERVER: ${{ vars.WAYFINDER_SERVER }}
-  WAYFINDER_WORKSPACE: ${{ vars.WAYFINDER_WORKSPACE || 'workspace-placeholder' }}
+  WAYFINDER_WORKSPACE: ${{ vars.WAYFINDER_WORKSPACE || 'demo' }}
   APPLICATION_NAME: ${{ inputs.app-name || 'demo' }}
   APP_ENVIRONMENT_NAME: ${{ inputs.app-environment-name || 'dev' }}
   INFRA_DIRECTORY: ${{ inputs.infra-directory || 'infra' }}
